@@ -7,8 +7,8 @@ def barcode():
     barcod = st.text_input("Barcode" , value = 1, key = "barcode")
     return barcod
 
-sparse_matrix = pd.read_csv('data.csv', sep = ',')
-sparse_matrix.astype({'barcode': str, "classe": str})
+sparse_matrix = pd.read_csv('data.csv', sep = ',', dtype={1: str, 2: str})
+#sparse_matrix.astype({'barcode': str, "classe": str})
 sparse_matrix = sparse_matrix.convert_dtypes()
 " Tableau des probabilités"
 
