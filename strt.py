@@ -9,7 +9,8 @@ def barcode():
 
 sparse_matrix = pd.read_csv('data.csv', sep = ',')
 sparse_matrix.astype({'barcode': str})
-#st.dataframe(sparse_matrix)
+" Tableau des probabilités"
+st.dataframe(sparse_matrix)
 def predict(barcode):
   return sparse_matrix.loc[sparse_matrix.barcode == barcode]
 
