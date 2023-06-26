@@ -113,7 +113,7 @@ if st.checkbox(label= "Display the class_desc used", value=False):
     """
 default_text = st.text_input(label= "Enter text to analyze.", value= "nutella")
 # Custom SpaCy Model
-custom_model = spacy_streamlit.load_model('output/spacy_textcat/model-best')
+custom_model = spacy_streamlit.load_model('output/model-best')
 if default_text :
     doc= custom_model(Pipeline(default_text))
     title = "Text"
