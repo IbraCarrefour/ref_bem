@@ -1,13 +1,7 @@
 # Load libraries
-import streamlit as st
-import spacy_streamlit
-import numpy as np
-import pandas as pd
 import re
-
 import nltk
 nltk.download('stopwords')
-
 from nltk.corpus import stopwords
 
 

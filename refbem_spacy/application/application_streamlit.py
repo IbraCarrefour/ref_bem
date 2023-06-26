@@ -1,4 +1,7 @@
-
+import streamlit as st
+import spacy_streamlit
+import numpy as np
+import pandas as pd
 from classes.function_class import *
 import plotly.express as px
 import warnings
