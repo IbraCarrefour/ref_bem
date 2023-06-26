@@ -4,7 +4,6 @@ numpy
 seaborn
 plotly-express
 nltk
-warning
 matplotlib
 spacy-streamlit
 re
