@@ -110,7 +110,7 @@ if st.checkbox(label= "Display the class_desc used", value=False):
     confiserie saisonnière,
     douches'
     """
-default_text = st.text_input(label= "Enter text to analyze.", value= "nutella")
+default_text = st.text_input(label= "Enter text to analyze.", value= "Véritable Petit beurre - LU - 12 X 3")
 # Custom SpaCy Model
 custom_model = spacy_streamlit.load_model('refbem_spacy/output/spacy_textcat/model-best')
 if default_text :
