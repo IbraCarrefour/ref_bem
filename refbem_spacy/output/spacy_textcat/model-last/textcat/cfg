@@ -1,0 +1,26 @@
+{
+  "labels":[
+    "bi\u00e8res",
+    "vins",
+    "viande volaille libre service",
+    "traiteur plats cuisin\u00e9s frais",
+    "europe",
+    "confiserie de sucre",
+    "sel poivre \u00e9pices aides culinaires",
+    "confiserie de chocolat",
+    "autres fromages",
+    "d\u00e9odorants",
+    "shampooings",
+    "p\u00e2tes alimentaires",
+    "biscuits sucr\u00e9s",
+    "colorations teintures",
+    "access coiffure et de toilette",
+    "produits di\u00e9t\u00e9tiques",
+    "soins du visage femme",
+    "maquillage",
+    "confiserie saisonni\u00e8re",
+    "douches"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}

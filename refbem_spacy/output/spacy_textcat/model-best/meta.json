@@ -1,0 +1,167 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.3,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"512241e12",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat":[
+      "bi\u00e8res",
+      "vins",
+      "viande volaille libre service",
+      "traiteur plats cuisin\u00e9s frais",
+      "europe",
+      "confiserie de sucre",
+      "sel poivre \u00e9pices aides culinaires",
+      "confiserie de chocolat",
+      "autres fromages",
+      "d\u00e9odorants",
+      "shampooings",
+      "p\u00e2tes alimentaires",
+      "biscuits sucr\u00e9s",
+      "colorations teintures",
+      "access coiffure et de toilette",
+      "produits di\u00e9t\u00e9tiques",
+      "soins du visage femme",
+      "maquillage",
+      "confiserie saisonni\u00e8re",
+      "douches"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.9034222374,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.9681869882,
+    "cats_micro_r":0.9014275629,
+    "cats_micro_f":0.9336153665,
+    "cats_macro_p":0.9551899932,
+    "cats_macro_r":0.8601304825,
+    "cats_macro_f":0.9034222374,
+    "cats_macro_auc":0.9937837406,
+    "cats_f_per_type":{
+      "bi\u00e8res":{
+        "p":0.9814291827,
+        "r":0.9273065416,
+        "f":0.9536005322
+      },
+      "vins":{
+        "p":0.9948405115,
+        "r":0.98477992,
+        "f":0.9897846514
+      },
+      "viande volaille libre service":{
+        "p":0.9747379737,
+        "r":0.9423226812,
+        "f":0.9582562748
+      },
+      "traiteur plats cuisin\u00e9s frais":{
+        "p":0.93023918,
+        "r":0.7842054729,
+        "f":0.8510028653
+      },
+      "europe":{
+        "p":0.9316359544,
+        "r":0.7358888889,
+        "f":0.8222732634
+      },
+      "confiserie de sucre":{
+        "p":0.9246038098,
+        "r":0.8425966448,
+        "f":0.8816974508
+      },
+      "sel poivre \u00e9pices aides culinaires":{
+        "p":0.9582580775,
+        "r":0.8440869719,
+        "f":0.897556391
+      },
+      "confiserie de chocolat":{
+        "p":0.8490774908,
+        "r":0.5612195122,
+        "f":0.6757709251
+      },
+      "autres fromages":{
+        "p":0.9748698211,
+        "r":0.8256951103,
+        "f":0.89410299
+      },
+      "d\u00e9odorants":{
+        "p":0.9848219498,
+        "r":0.9518525484,
+        "f":0.9680566182
+      },
+      "shampooings":{
+        "p":0.9853905226,
+        "r":0.9544629898,
+        "f":0.9696802138
+      },
+      "p\u00e2tes alimentaires":{
+        "p":0.9293096321,
+        "r":0.7622923025,
+        "f":0.8375558867
+      },
+      "biscuits sucr\u00e9s":{
+        "p":0.9255072859,
+        "r":0.7837619652,
+        "f":0.8487573373
+      },
+      "colorations teintures":{
+        "p":0.9881904762,
+        "r":0.917580474,
+        "f":0.9515774028
+      },
+      "access coiffure et de toilette":{
+        "p":0.9814005742,
+        "r":0.940430622,
+        "f":0.9604788956
+      },
+      "produits di\u00e9t\u00e9tiques":{
+        "p":0.9282015066,
+        "r":0.8129896907,
+        "f":0.8667839086
+      },
+      "soins du visage femme":{
+        "p":0.9816993464,
+        "r":0.9022827393,
+        "f":0.9403171953
+      },
+      "maquillage":{
+        "p":0.9878490176,
+        "r":0.9764262442,
+        "f":0.9821044177
+      },
+      "confiserie saisonni\u00e8re":{
+        "p":0.9112795363,
+        "r":0.8204881182,
+        "f":0.8635038655
+      },
+      "douches":{
+        "p":0.9804580153,
+        "r":0.9319402119,
+        "f":0.9555836619
+      }
+    },
+    "cats_macro_auc_per_type":0.0,
+    "textcat_loss":0.9160887557
+  }
+}

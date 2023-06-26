@@ -19,4 +19,4 @@ def predict(barcode):
 barcod = barcode()
 if barcod :
    "codif possible"
-   st.dataframe(predict(barcod)[["barcode", "classe", "Probabilité"]].sort_values(by=['Probabilité']))
+   st.dataframe(predict(barcod).sort_values(by=['Proportion']))
