@@ -1,24 +1,21 @@
 # Load libraries
-import spacy
+
 import streamlit as st
 import spacy_streamlit
 import numpy as np
 import pandas as pd
-import random
 import re
 
 import nltk
 nltk.download('stopwords')
 
 import plotly.express as px
-import sys
 import warnings
 warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 sns.set(rc={'figure.figsize':(14.7,10.27)})
-from datetime import datetime
 
 # config
 
