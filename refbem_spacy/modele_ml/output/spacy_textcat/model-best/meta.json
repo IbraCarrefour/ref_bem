@@ -1,0 +1,71 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.3,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"Unknown",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat":[
+      "vins",
+      "confiserie de sucre",
+      "maquillage",
+      "confiserie saisonni\u00e8re"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.9750915934,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.9892596994,
+    "cats_micro_r":0.9854515881,
+    "cats_micro_f":0.9873519719,
+    "cats_macro_p":0.9784028944,
+    "cats_macro_r":0.9718151255,
+    "cats_macro_f":0.9750915934,
+    "cats_macro_auc":0.9985340421,
+    "cats_f_per_type":{
+      "vins":{
+        "p":0.9987931837,
+        "r":0.997661719,
+        "f":0.9982271307
+      },
+      "confiserie de sucre":{
+        "p":0.9589933383,
+        "r":0.9507595215,
+        "f":0.95485868
+      },
+      "maquillage":{
+        "p":0.9993597132,
+        "r":0.9959798354,
+        "f":0.9976669117
+      },
+      "confiserie saisonni\u00e8re":{
+        "p":0.9564653425,
+        "r":0.9428594262,
+        "f":0.949613651
+      }
+    },
+    "cats_macro_auc_per_type":0.0,
+    "textcat_loss":0.7468190091
+  }
+}

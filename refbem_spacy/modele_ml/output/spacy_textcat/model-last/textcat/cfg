@@ -1,0 +1,10 @@
+{
+  "labels":[
+    "vins",
+    "confiserie de sucre",
+    "maquillage",
+    "confiserie saisonni\u00e8re"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}
