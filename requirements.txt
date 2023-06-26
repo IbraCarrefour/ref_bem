@@ -8,3 +8,4 @@ seaborn==0.12.1
 spacy==3.5.3
 spacy-streamlit==1.0.6
 streamlit==1.22.0
+joblib
